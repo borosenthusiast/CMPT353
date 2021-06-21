@@ -1,0 +1,14 @@
+             Mean X     Mean Y    Stdev X    Stdev Y      Min X      Min Y      Max X      Max Y    Range X    Range Y  Correlation Coefficient
+Dataset1   8.717696  12.522874  12.155517   6.639964 -22.635878  -2.565088  35.237055  27.384153  57.872933  29.949240                 0.950326
+Dataset2  -0.710787  -0.748987  11.481584   6.257918 -33.271113 -18.621804  27.647000  14.147315  60.918113  32.769119                 0.955153
+Dataset3   0.968907   8.508535   2.235558   1.149301  -2.449064   6.641734   4.518885  10.551871   6.967949   3.910137                 0.981937
+Dataset4  49.905086  18.553837  28.508611  16.545896   0.000000   0.000000  87.376700  44.565040  87.376700  44.565040                -0.081193
+Dataset5  49.909994  18.555525  28.500001  16.540796   4.337892   0.055498  91.052863  49.934197  86.714971  49.878700                -0.088236
+Dataset6   7.216155   7.602215  11.921599  11.764382 -24.333821 -22.956357  35.402139  36.079874  59.735960  59.036231                 0.935069
+
+#Data-1: Dataset with positive correlation between x and y, ranging from -22.64 to 35.24 for x and -2.57 to 27.38 for y.
+#Data-2: Dataset with positive correlation between x and y, ranging from -33.27 to 27.65 for x and -18.62 to 14.15 for y.
+#Data-3: Dataset with positive correlation between x and y, ranging for -2.45 to 4.52 for x and -18.62 to 14.15 for y and with four clusters of data points.
+#Data-4: Dataset with no correlation with a mean x value of 49.91 and mean y value of 18.55 with x and y values in a relation rather than a function.
+#Data-5: Dataset with no correlation with a mean x value of 49.91 and mean y value of 18.56, values in a relation grouped in five vertical imperfect lines.
+#Data-6: Dataset with large positive correlation between x and y, ranging from -24.33 to 35.40 for x and -22.96 to 36.08 for y, with a few low value outliers towards the higher end of the x axis.

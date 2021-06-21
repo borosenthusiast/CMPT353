@@ -1,0 +1,4 @@
+1) Yes, it can be considered p hacking, since the first three tests are p>0.05, and the testing parameters keep changing until p<0.05, which is just throwing away the previous three tests.
+Where p<0.05 (0.045), it concludes that instructors did search differently in A/B testing, while the rest fail to reject the null hypothesis.
+2) There would be 7!/2(7-5)! = 21 tests for each pair. The probability of making a false conclusion is 65.9% (from 1 - (1 - 0.05)^21).
+3) From best to worst: partition sort, qs1, qs3/qs2, qs5, qs4, merge1

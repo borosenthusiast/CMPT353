@@ -1,0 +1,17 @@
+1)
+reddit-0 dataset: 9.892s
+reddit-2 dataset no schema & no caching: 1m7.524s
+reddit-2 dataset schema & no caching: 13.874s
+reddit-2 dataset schema & caching: 12.459s
+
+2) 
+Based on the 9.892s baseline with a minimal dataset, it would seem like most of the time taken
+is reading in the dataset. A larger dataset with equivalent parameters (no caching, with schema)
+showed a 4 second increase in total execution time.
+
+3)
+.cache() was used after filtering the data from wikipedia, on wiki_clean.
+Caching wiki_clean -> 8.585s
+No cache -> 8.769s
+Caching most_frequently_accessed after agg -> 9.042s
+

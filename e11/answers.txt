@@ -1,0 +1,6 @@
+1)
+cache() was used when a spark dataframe would be reused throughout the program, for example the comments dataframe and subreddits dataframe. Using cache() would decrease the run time of the program, while not using it would increase the run time of the program.
+2)
+With broadcast: 43.197s
+Without broadcast: 46.448s
+There was a difference of 3.257s in running time when broadcast was disabled versus when broadcast was enabled. Using broadcast decreased the amount of time it took to calculate the joins, which decreased the time it took to run the program.

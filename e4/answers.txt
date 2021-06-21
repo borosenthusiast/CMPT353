@@ -1,0 +1,5 @@
+1) Daily temperature is not a good measure of population density. The scatterplot generated shows that there is no correlation in any direction between daily temperature and population density. The points are scattered
+all over the graph with no pattern.
+
+2) Depending on the compression ratio, reading compressed data from disk to memory, then decompressing may be faster than reading uncompressed data to memory. This is especially the case on computers with traditional hard drives
+vs computers with SSDs. Decompression is also often done in parallel, so computers with many threads available can decompress the data in memory even faster.

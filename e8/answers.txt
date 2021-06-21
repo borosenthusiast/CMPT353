@@ -1,0 +1,7 @@
+1) The kNN transformed model seemed to have performed the best out of all the options. It succeeds in detecting colors that are close to each other in the color wheel.
+kNN may have performed better since kNN is based on proximity of values, and the RGB color space is already organized as a distance to red, blue, and green.
+Although the two kNN models performed close, the LAB model performed marginally better, this is potentially due to rgb2lab acting as a scaling function similar to PCA.
+
+2) Many of the mistakes made by the model in validation data seem reasonable. For example, Victoria -> Vancouver, Portland -> Seattle, Regina -> Calgary, or San Francisco -> Los Angeles.
+Most of the cities errorneously identified are close in geographical distance and climate. Hence, the data would be enough to each other to potentially make errors in prediction.
+To reduce the amount of wrong predictions, some historical statistics may be useful, since the additional data may make the cities different enough from the model's perspective.

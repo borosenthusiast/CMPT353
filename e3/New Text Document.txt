@@ -1,0 +1,5 @@
+kalman_data = cpu_data[['temperature', 'cpu_percent', 'sys_load_1']]
+initial_state = kalman_data.iloc[0]
+observation_covariance = np.diag([0.99, 0.99, 0.99]) ** 2 
+transition_covariance = np.diag([0.005, 0.005, 0.005]) ** 2 
+transition = [[1, -1, 0.7], [0, 0.6, 0.03], [0, 1.3, 0.8]]

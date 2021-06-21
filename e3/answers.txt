@@ -1,0 +1,8 @@
+1) Using Kalman smoothing seemed to have yielded the better results. 
+Although certain parameters would result in an underestimate overall, the overall curve seemed to better
+represent the actual trends in the CPU temperature data. For example, where the temperature would have spikes but a general upward trend (high but short cpu load),
+the Kalman smoothing resulted in better representation without having the entire data be unsmooth.
+
+2) Direction and speed can certainly help because when combined it provides data for velocity.
+Velocity and position data can be used together for example including velocity into the kalman smoothing can provide data that is
+less prone to random positional jumps, therefore providing more accurate data.

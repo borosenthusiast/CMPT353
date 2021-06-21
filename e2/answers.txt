@@ -1,0 +1,10 @@
+1) The result of data['timestamp']*fit.slope + fit.intercept (known as 'prediction' in data) is derived from the linear equation mx+b where m and b are the slope and intercept calculated by linregress(data['timestamp'], data['rating'])
+and x is the value of the timestamp. It produces a float64 which is equal to the value of the rating predicted by the linregress method at that particular timestamp.
+
+
+2) A fit line is produced because the two lines of code
+	plt.plot(data['created_at'], data['rating'], 'b.', alpha=0.5)
+	plt.plot(data['created_at'], data['timestamp']*fit.slope + fit.intercept, 'r-', linewidth=3)
+is used to generate a plot of values using ratings, which generates a scatterplot and the second line is used to generate a linear line
+that represents the fit line. The created_at and timestamp values represent the same point in time as each other and is simply converted using the datetime
+library in order for lingegress to calculate its values.

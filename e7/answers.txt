@@ -1,0 +1,6 @@
+1)
+Visually inspecting the residual histogram shows a normally distributed plot with left skew, which should be enough to consider the OLS p value. The p-value indicates that y does not linearly depend on x.
+So we can conclude that the data given has increasing ratings.
+2)
+Yes, it appears to capture the actual CPU temperature more than the original. Extreme outliers are still ignored, while allowing for sharper fluctuations in temperature which could be caused by
+a high short load on the CPU.

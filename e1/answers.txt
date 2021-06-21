@@ -1,0 +1,11 @@
+1) NumPy was initially easier to work with, due to themethods being more direct and simpler to work with. However, Pandas allows for more powerful methods and code that is
+more concise. Pandas is also easier to read due to the higher level of code that only describes the process without every step in between (such as ravel and reshape).
+
+2) 
+pivot_months_pandas(data):
+14 ms ± 39.8 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
+pivot_months_loops(data):
+475 ms ± 1.52 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+
+The standard python loop method has many function calls which all have overhead slowing down the execution time as well as standard python data structures
+and methods (dict and list), while the Pandas methods are very optimized and purpose built to handle large amounts of data.

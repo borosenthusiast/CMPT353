@@ -1,0 +1,10 @@
+1) The sqrt transformation provided the closest value because the p value produced by the levene test was > 0.05, which fails
+to reject the null hypothesis, showing that the variances are close enough to use these values.
+
+2) For the first T test, if the null hypothesis is rejected then we can conclude that the means of the number of comments on weekends and weekdays are different.
+For the second, if the null hypothesis is rejected then the conlusion is that the mean of the square root of number of comments on weekends and weekdays are different.
+
+3) The Mann-Whittney U Test. It is a valid test for this set of data - with different variances with most transformation values and is valid for data that does not follow a standard distribution. The conclusion that
+the u test can give is still valid in answering the initial question of there being different number of Reddit comments on weekends vs weekdays.
+
+4) There are more comments on weekdays than on weekends.
